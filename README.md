@@ -42,9 +42,9 @@ All files generated in process are stored in `project-monocots/results/InputPyfi
 RACCROCH module 2 requires `python v3+` to run and some dependencies that introduced at `Dependencies` section. please make sure that you have isntalled those before you are going to install.
 To install the package *raccroche*, and all its dependances, from the root directory, just do::  
 ```
-$ pip install git+git://github.com/jin-repo/RACCROCHE.git
+$ pip install git+git://github.com:Qiaojilim/raccroche_module2.git
 ```
-
+git@github.com:Qiaojilim/raccroche_module2.git
 You will then be able to use RACCROCHE module 2 from any directory in your computer, just as any other software.  
 Test whether it has been installed successfully:
 ```
@@ -67,13 +67,18 @@ $ module2_main -h
 
 Whatever the way you installed raccroche, you can uninstall it by running::
 ```
-$ sudo pip3 uninstall module2_main
+$ sudo pip uninstall module2 
 ```
 
 |  |  |
 | ------ | ------ |
 |Authors | Qiaoji Xu ([QiaojiXu]) |
+|  | Lingling Jin ([LinglingJin]) |
+|  | Chunfang Zheng |
+|  | James H. Leeben-Mack |
+|  | David Sankoff |
 | Emails | limqiaojixu@gmail.com|
+|  | lingling.jin@cs.usask.ca |
 | License | [BSD] |
 
 [QiaojiXu]: <https://github.com/Qiaojilim>
